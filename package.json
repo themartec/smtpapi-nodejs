@@ -1,0 +1,54 @@
+{
+  "name": "@longnc/themartec-smtpapi",
+  "version": "1.0.0",
+  "description": "Build SendGrid X-SMTPAPI headers in nodejs. And this version for upgrade some packages to latest and fix security",
+  "main": "lib/main.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/themartec/smtpapi-nodejs.git"
+  },
+  "keywords": [
+    "smtpapi",
+    "x-smtpapi",
+    "smtp",
+    "sendgrid",
+    "headers",
+    "email"
+  ],
+  "author": "Long Nguyen <long.nguyen@themartec.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@longnc/themartec-esdoc": "^1.0.0",
+    "chai": "^2.3.0",
+    "esdoc-coverage-plugin": "^1.1.0",
+    "esdoc-type-inference-plugin": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "should": "^13.2.3"
+  },
+  "contributors": [
+    {
+      "name": "Yamil Asusta",
+      "email": "yamil@sendgrid.com",
+      "url": "yamilasusta.com"
+    },
+    {
+      "name": "Scott Motte",
+      "email": "scott@scottmotte.com",
+      "url": "scottmotte.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/themartec/smtpapi-nodejs/issues"
+  },
+  "homepage": "https://github.com/themartec/smtpapi-nodejs#readme"
+}
